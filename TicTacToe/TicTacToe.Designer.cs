@@ -1,7 +1,7 @@
 ﻿
 namespace TicTacToe
 {
-    partial class Form1
+    partial class TicTacToe
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace TicTacToe
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // TicTacToe
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "TicTacToe";
+            this.Text = "Tic-Tac-Toe";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
